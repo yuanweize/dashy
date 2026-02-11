@@ -3,7 +3,7 @@ name: 📊 Wiki Sync
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 1 * * 0' # At 01:00 on Sunday.
+    - cron: "20 21 * * *" # At 01:00 on Sunday.
 permissions:
   contents: write
 
